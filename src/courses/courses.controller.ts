@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class CoursesController {
   @Get('/api/hello-worldd')
   async helloWorld(): Promise<String> {
-    return 'Hello Worldd';
+    return 'Hello Worlldd';
   }
 }
