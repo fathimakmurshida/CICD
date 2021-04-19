@@ -6,4 +6,8 @@ export class CoursesController {
   async helloWorld(): Promise<String> {
     return 'Hello Worlldd';
   }
+  @Get('/')
+  async hello(): Promise<String> {
+    return 'Hello';
+  }
 }
